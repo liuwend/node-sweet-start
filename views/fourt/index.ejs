@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" charset="utf-8" src="static/javascripts/jquery-1.11.3.js"></script>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+    <div>
+      <textarea id="initData" rows="25" cols="20"></textarea>
+
+      <button id="generateBtn" style="margin-bottom: 20px;">>></button>
+
+      <textarea id="newMers" rows="25" cols="20"></textarea>
+      <textarea id="newMerTermls" rows="25" cols="20"></textarea>
+    </div>
+
+  <script type="text/javascript">
+    $('#generateBtn').on('click', function() {
+      var data = {
+        initMers : $('#initData').val()
+      };
+
+      $.post('/fourt/generateMers', data, function(data) {
+
+      });
+    });
+  </script>
+  </body>
+</html>

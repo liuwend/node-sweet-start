@@ -1,0 +1,9 @@
+{
+  "appenders": [
+    {"tpye": "console"},
+    {"tpye": "file", "filename": "logs/fourt.log", "catgory": "fourt", "maxLogSize": 20480, "backups": 10}
+  ],
+  "levels": {
+    "fourt": "INFO"
+  }
+}

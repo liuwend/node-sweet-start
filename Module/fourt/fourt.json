@@ -1,0 +1,29 @@
+{
+  "merchant": {
+    "8470000": {
+      "currNum": 192,
+      "maxNum": 9999
+    },
+    "8470009": {
+      "currNum": 1,
+      "maxNum": 9999
+    },
+    "847A000": {
+      "currNum": 192,
+      "maxNum": 9999
+    },
+    "84C0000": {
+      "currNum": 192,
+      "maxNum": 9999
+    },
+    "8450008": {
+      "currNum": 192,
+      "maxNum": 9999
+    }
+  },
+
+  "terminal": {
+    "currNum": 0,
+    "updateDate": "1122"
+  }
+}
